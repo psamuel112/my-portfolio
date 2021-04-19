@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<HTML></HTML>
+<!--headercontentstarts-->
+<head>
+<link rel="stylesheet" href="myportfolio.css">
+
+<title>myportfolio</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+<div class="container">
+    <nav class="flex items-center justify-between">
+    <div class="left flex items-center">
+    <div class="logo">
+        <img src="../icon-luxury.svg">
+    </div>
+    <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#blog">Blog</a>
+    </div>
+    </div>
+<div class="right">
+       <button class="btn btn-primary">
+        Contact
+    </button>
+    </div>
+</nav>
+</div>
+
+
+
+
+<div id="home" class="mine flex items-center justify-between">
+    
+    <div class="left flex-1 flex justify-center">
+        <!--myimagehere-->
+        <img  class="mainimg" src="../WhatsApp Image 2021-04-15 at 12.43.54 PM.jpeg">
+        
+    </div>
+    <div class="right flex-1">
+        <h6>damilola yekinni</h6>
+        <h1>i'm a frontend <span>developer</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem at voluptates ipsa cumque quisquam sint iusto in molestiae adipisci commodi, laborum omnis ab, quod quo nihil? Magnam asperiores quaerat eum.</p>
+    
+         <div>
+            <button class="btn btn-secondary">download cv</button>
+        </div>
+        </div>
+    </div>
+</div>
+</header>
+
+<section id="about" class="about">
+  <div class="container flex items-center">
+    <div class="flex-1">
+        <img about-me-img src="../p-5.jpeg">
+    </div>
+    <div class="flex-1">
+        <h1>About <span class="Me">Me</span></h1>
+        <h3>Hello! i'm Damilola yekinni.
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, inventore. Quos eum rerum omnis. Sequi odio ex vero animi quas quia dolorem ab dolores, reprehenderit id perspiciatis at est architecto.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis atque, eius ex, cumque quam rem laudantium recusandae labore et deleniti.</p>
+    
+      <div class="icons">
+        <a href="#"><img src="../iconfinder_Facebook_345422.png"></a>
+        <a href="#"><img src="../iconfinder_LinkedIn_345413.png"></a>
+        <a href="#"><img src="../iconfinder_social-05_3146787.png"></a>
+        <a href="#"><img src="../iconfinder_social-01_3146791.png"></a>
+    </div>
+    </div>
+   
+
+
+</section>
+</div>
+
+
+<!--new section-->
+<section id=
+"services" class="services">
+<div class="container">
+    <div class="headline">
+<h1><span>Our</span> Services</h1>
+<p>We provide high standard clean website for your business solution</p>
+    </div>
+    <div class="card-wrapper">
+        <div class="card">
+            <h2>WEB DESIGN</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias doloribus exercitationem possimus, sequi repellat. Ab, praesentium deleniti est </P>
+            <h5>learn more</h5>
+        </div>
+        <div class="card">
+            <h2>WEB DEVELOPMENT</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias doloribus exercitationem possimus, sequi repellat. Ab, praesentium deleniti est </P>
+            <h5>learn more</h5>
+        </div>
+        <div class="card">
+            <h2>AFFILIATE MARKETING</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque alias doloribus exercitationem possimus, sequi repellat. Ab, praesentium deleniti est </P>
+            <h5>learn more</h5>
+        </div>
+  
+    </div>
+</section>
+
+<section id="blog" class="blog">
+<div class="container">
+    <div class="blogtitle">
+        <h1><span>Our</span> Blog</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipe tule</p>
+    </div>
+<div class="img-cover">
+
+
+<div class="img-wrapper">
+    <img src="../p-2.jpeg">
+
+    <a href="#">
+        <h1>Technology Advancement</h1>
+    </a>
+    <h3>May 12, 2021</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa magnam, repellat optio eius, quibusdam cumque libero veritatis reiciendis repellendus ut sit </p>
+    <a href="#">Read more...</a>
+</div>
+
+<div class="img-wrapper">
+    <img src="../p-2.jpeg">
+
+    <a href="#">
+        <h1>Technology Advancement</h1>
+    </a>
+    <h3>May 12, 2021</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa magnam, repellat optio eius, quibusdam cumque libero veritatis reiciendis repellendus ut sit </p>
+    <a href="#">Read more...</a>
+
+</div>
+<div class="img-wrapper">
+    <img src="../p-2.jpeg">
+
+    <a href="#">
+        <h1>Technology Advancement</h1>
+    </a>
+    <h3>May 12, 2021</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa magnam, repellat optio eius, quibusdam cumque libero veritatis reiciendis repellendus ut </p>
+    <a href="#">Read more...</a>
+
+</div>
+</div>
+</div>
+
+
+</section>
+    
+</body>
+
+
+
+
+
+
+
+@import'utility.css';
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;}
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #161616;
+    height: 800px;
+    clip-path:polygon(0 0,100% 0,100% 100%,70% 87%,0 100%);
+    
+    
+}
+.container{
+    max-width: 1125px;
+    padding: 0 15px;
+    margin:0 auto;
+    
+    
+}
+.justify-between{
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+header nav .left a:hover{
+    color: teal;
+}
+header nav{
+    padding: 1rem 0;
+
+    
+}
+header .logo{
+    margin-right: 3rem;
+}
+.mine{
+    display: flex;
+    justify-content: space-between;
+}
+.mine .left img{
+    width: 400px;
+}
+.mine .right{
+    color: white;
+}
+.mine .right h6{
+    font-size: 1.6rem;
+    color: teal;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+.mine .right h1{
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+.mine .right h1 span{
+    color: teal;
+}
+.mine .right r{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+section{
+    padding: 6rem 0;
+}
+
+.container1{
+    position: fixed;
+}
+.mainimg{
+    padding-top: 50px;
+}
+
