@@ -255,3 +255,277 @@ section{
     padding-top: 50px;
 }
 
+
+
+
+
+
+
+.flex{
+    display: flex ;
+    
+}
+.items-center{
+    align-items: center;
+}
+
+.btn{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 2s ease;
+}
+.btn-primary{
+    background-color: teal;
+    color:  #161616;
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color: teal;
+    color: teal;
+
+}
+.btn-secondary{
+    background:transparent;
+    border-color:  #161616 ;
+    color:teal ;
+    border-color: teal;
+}
+.btn-secondary:hover{
+    background-color: teal;
+    color:  #161616 ;
+}
+.mine{
+    display: flex;
+}
+.btn-secondary{
+    margin-top: 2rem;
+}
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
+section.about .about-me-img{
+    height: 450px;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1,6rem;
+    font-weight: 400;
+    
+}
+section.about h1 span{
+    color:teal;
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    
+}
+section.about p{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8rem;
+    margin-bottom: 0.6rem;
+}
+section.about .icons{
+    display: flex;
+    box-sizing: border-box;
+    border: black;
+    
+}
+section.about .icons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    transition: all 2s ease;
+}
+section.about .icons a img{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+section.about .icons a:hover{
+    background-color: teal;
+    
+}
+nav .menu{
+    position: static;
+}
+.designs{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    justify-content: space-between;
+
+}
+
+
+section.services{
+    background-color:#f2f2f2;
+}
+
+section.services .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+       
+}
+section.services .card-wrapper .card{
+    background-color: white;
+    padding: 3rem;
+    text-align: center;
+    transition: all 2s ease;
+    
+}
+section.services .card-wrapper .card h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+
+}
+section.services .card-wrapper .card p{
+    font-family: 'Lato', sans-serif;
+    color:  #161616; 
+    padding: 3rem 2rem;
+}
+section.services .card-wrapper .card:hover{
+    background-color: #161616 ;
+
+}
+section.services .card-wrapper .card:hover h2,
+section.services .card-wrapper .card:hover p,
+section.services .card-wrapper .card:hover h5{
+color: white;
+    }
+    
+section.services
+{
+    padding-top: 0rem;
+}
+
+section.services .container h1{
+    text-align: center;
+    
+}
+section.services .container h1 span{
+    color: teal;
+
+}
+section.services .container p{
+    text-align: center;
+    font-family:'Lato', sans-serif; 
+    padding-top: 1.5px;
+    font-weight: 300;
+}
+section.services .container {
+    padding: 6rem;
+}
+section.services .container h5{
+    font-style:italic;
+    text-decoration: underline;
+    padding-top: 1.8rem;
+}
+section.services .headline{
+    padding-bottom: 6rem;
+    margin: 0 1rem;
+    line-height: 2rem;
+}
+section.blog .img-cover{
+    display: grid;
+ 
+    grid-column-gap: 1rem; 
+}
+section.blog .blogtitle{
+    text-align: center;
+    padding-bottom:6rem;
+    line-height: 2rem;
+}
+section.blog .container h1 span{
+    color: teal;
+}
+section.blog .container h1 {
+    color: white;
+}
+
+section.blog .container p{
+    text-align: center;
+    font-family:'Lato', sans-serif; 
+    padding-top: 1.5px;
+    font-weight: 300;
+    color: white;
+
+}
+
+
+
+section.blog .container a h1{
+    color: black
+    
+}
+section.blog .container .img-cover .card-content a h1{ 
+color: black;
+
+}
+section.blog .container .img-cover .card-content span{ 
+    color: white
+}
+section.blog .container .img-cover .card-content p{ 
+    color:black;
+}
+section.blog .img-cover{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+section.blog{
+    background-color: black;
+}
+section.blog .container .img-cover .img-wrapper{ 
+    background-color: white;
+}
+section.blog .container .img-cover .img-wrapper p{ 
+    color: black;
+}
+section.blog .img-wrapper a h1{
+font-weight: 600;
+font-size: 1rem;
+margin-top: 2rem;
+margin-bottom: 1rem;
+padding-left: 0.5rem;
+}
+section.blog .img-wrapper a {
+    text-decoration: none;
+
+}
+section.blog .img-wrapper h3{
+  color:  #474545;
+  font-size: 0.8rem;
+  margin-bottom: 1;
+  padding-left: 0.5rem;
+}
+section.blog .img-wrapper p{
+    text-align: left;
+    margin-top: 0.9rem;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+
+}
+section.blog .img-wrapper a:hover{
+    color: teal;
+
+}
+section.blog .img-wrapper a{
+    font-style: italic;
+    color: black;
+    padding-left: 0.5rem;
+}
+
